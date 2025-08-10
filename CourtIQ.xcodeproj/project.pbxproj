@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		C7CB42B32E4944F6006E4D18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7CB429A2E4944F0006E4D18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7CB42A12E4944F0006E4D18;
+			remoteInfo = CourtIQ;
+		};
+		C7CB42BD2E4944F6006E4D18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7CB429A2E4944F0006E4D18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7CB42A12E4944F0006E4D18;
+			remoteInfo = CourtIQ;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C7CB42A22E4944F0006E4D18 /* CourtIQ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CourtIQ.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7CB42B22E4944F6006E4D18 /* CourtIQTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CourtIQTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7CB42BC2E4944F6006E4D18 /* CourtIQUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CourtIQUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		C7CB42A42E4944F0006E4D18 /* CourtIQ */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CourtIQ;
+			sourceTree = "<group>";
+		};
+		C7CB42B52E4944F6006E4D18 /* CourtIQTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CourtIQTests;
+			sourceTree = "<group>";
+		};
+		C7CB42BF2E4944F6006E4D18 /* CourtIQUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CourtIQUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7CB429F2E4944F0006E4D18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7CB42AF2E4944F6006E4D18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7CB42B92E4944F6006E4D18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C7CB42992E4944F0006E4D18 = {
+			isa = PBXGroup;
+			children = (
+				C7CB42A42E4944F0006E4D18 /* CourtIQ */,
+				C7CB42B52E4944F6006E4D18 /* CourtIQTests */,
+				C7CB42BF2E4944F6006E4D18 /* CourtIQUITests */,
+				C7CB42A32E4944F0006E4D18 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C7CB42A32E4944F0006E4D18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7CB42A22E4944F0006E4D18 /* CourtIQ.app */,
+				C7CB42B22E4944F6006E4D18 /* CourtIQTests.xctest */,
+				C7CB42BC2E4944F6006E4D18 /* CourtIQUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7CB42A12E4944F0006E4D18 /* CourtIQ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7CB42C62E4944F6006E4D18 /* Build configuration list for PBXNativeTarget "CourtIQ" */;
+			buildPhases = (
+				C7CB429E2E4944F0006E4D18 /* Sources */,
+				C7CB429F2E4944F0006E4D18 /* Frameworks */,
+				C7CB42A02E4944F0006E4D18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				C7CB42A42E4944F0006E4D18 /* CourtIQ */,
+			);
+			name = CourtIQ;
+			packageProductDependencies = (
+			);
+			productName = CourtIQ;
+			productReference = C7CB42A22E4944F0006E4D18 /* CourtIQ.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C7CB42B12E4944F6006E4D18 /* CourtIQTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7CB42C92E4944F6006E4D18 /* Build configuration list for PBXNativeTarget "CourtIQTests" */;
+			buildPhases = (
+				C7CB42AE2E4944F6006E4D18 /* Sources */,
+				C7CB42AF2E4944F6006E4D18 /* Frameworks */,
+				C7CB42B02E4944F6006E4D18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7CB42B42E4944F6006E4D18 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C7CB42B52E4944F6006E4D18 /* CourtIQTests */,
+			);
+			name = CourtIQTests;
+			packageProductDependencies = (
+			);
+			productName = CourtIQTests;
+			productReference = C7CB42B22E4944F6006E4D18 /* CourtIQTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C7CB42BB2E4944F6006E4D18 /* CourtIQUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7CB42CC2E4944F6006E4D18 /* Build configuration list for PBXNativeTarget "CourtIQUITests" */;
+			buildPhases = (
+				C7CB42B82E4944F6006E4D18 /* Sources */,
+				C7CB42B92E4944F6006E4D18 /* Frameworks */,
+				C7CB42BA2E4944F6006E4D18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7CB42BE2E4944F6006E4D18 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C7CB42BF2E4944F6006E4D18 /* CourtIQUITests */,
+			);
+			name = CourtIQUITests;
+			packageProductDependencies = (
+			);
+			productName = CourtIQUITests;
+			productReference = C7CB42BC2E4944F6006E4D18 /* CourtIQUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7CB429A2E4944F0006E4D18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					C7CB42A12E4944F0006E4D18 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					C7CB42B12E4944F6006E4D18 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = C7CB42A12E4944F0006E4D18;
+					};
+					C7CB42BB2E4944F6006E4D18 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = C7CB42A12E4944F0006E4D18;
+					};
+				};
+			};
+			buildConfigurationList = C7CB429D2E4944F0006E4D18 /* Build configuration list for PBXProject "CourtIQ" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C7CB42992E4944F0006E4D18;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C7CB42A32E4944F0006E4D18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7CB42A12E4944F0006E4D18 /* CourtIQ */,
+				C7CB42B12E4944F6006E4D18 /* CourtIQTests */,
+				C7CB42BB2E4944F6006E4D18 /* CourtIQUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7CB42A02E4944F0006E4D18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7CB42B02E4944F6006E4D18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7CB42BA2E4944F6006E4D18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7CB429E2E4944F0006E4D18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7CB42AE2E4944F6006E4D18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7CB42B82E4944F6006E4D18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C7CB42B42E4944F6006E4D18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7CB42A12E4944F0006E4D18 /* CourtIQ */;
+			targetProxy = C7CB42B32E4944F6006E4D18 /* PBXContainerItemProxy */;
+		};
+		C7CB42BE2E4944F6006E4D18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7CB42A12E4944F0006E4D18 /* CourtIQ */;
+			targetProxy = C7CB42BD2E4944F6006E4D18 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C7CB42C42E4944F6006E4D18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C7CB42C52E4944F6006E4D18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7CB42C72E4944F6006E4D18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CourtIQ/Preview Content\"";
+				DEVELOPMENT_TEAM = 767ELXNDQ9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.YemiAjibola.CourtIQ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C7CB42C82E4944F6006E4D18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CourtIQ/Preview Content\"";
+				DEVELOPMENT_TEAM = 767ELXNDQ9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.YemiAjibola.CourtIQ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C7CB42CA2E4944F6006E4D18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 767ELXNDQ9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.YemiAjibola.CourtIQTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CourtIQ.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CourtIQ";
+			};
+			name = Debug;
+		};
+		C7CB42CB2E4944F6006E4D18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 767ELXNDQ9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.YemiAjibola.CourtIQTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CourtIQ.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CourtIQ";
+			};
+			name = Release;
+		};
+		C7CB42CD2E4944F6006E4D18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 767ELXNDQ9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.YemiAjibola.CourtIQUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CourtIQ;
+			};
+			name = Debug;
+		};
+		C7CB42CE2E4944F6006E4D18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 767ELXNDQ9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.YemiAjibola.CourtIQUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CourtIQ;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7CB429D2E4944F0006E4D18 /* Build configuration list for PBXProject "CourtIQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7CB42C42E4944F6006E4D18 /* Debug */,
+				C7CB42C52E4944F6006E4D18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7CB42C62E4944F6006E4D18 /* Build configuration list for PBXNativeTarget "CourtIQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7CB42C72E4944F6006E4D18 /* Debug */,
+				C7CB42C82E4944F6006E4D18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7CB42C92E4944F6006E4D18 /* Build configuration list for PBXNativeTarget "CourtIQTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7CB42CA2E4944F6006E4D18 /* Debug */,
+				C7CB42CB2E4944F6006E4D18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7CB42CC2E4944F6006E4D18 /* Build configuration list for PBXNativeTarget "CourtIQUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7CB42CD2E4944F6006E4D18 /* Debug */,
+				C7CB42CE2E4944F6006E4D18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7CB429A2E4944F0006E4D18 /* Project object */;
+}
