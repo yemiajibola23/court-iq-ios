@@ -7,7 +7,7 @@ Welcome! This document explains how to work on this project so we keep a consist
 ## 1. Branch Naming Convention
 
 Branches follow this pattern:
-`<type>/<short-description>`
+<type>/<short-description>
 **Types**:
 - `feat` — New feature
 - `fix` — Bug fix
